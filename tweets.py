@@ -3,12 +3,12 @@ from kafka import KafkaProducer
 import kafka
 import json
 
-consumer_key = 'va6ZBB8Ltc9hk83TQkBvmsXf4'
-consumer_secret = 'D7yG6qPfXpuySEzVnQDjPin49Zri4wMgMh4LVLLF5ghTlLxTBt'
-access_token = '1976888600-nlErcWZ5KY1ZldjCi2ut8uP3PTdUgefIFjaglAy'
-access_secret = 'DmgvT8ZL8IZkLVPrmcczREgB0pjZWyAY2ZpqyEwKe3CLY'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_secret = '
 kafka_brokers = 'localhost:9092'
-bearer_token = 'AAAAAAAAAAAAAAAAAAAAAFVibgEAAAAAoAIQp9pM9dwmFbZNja8pRG4xvJ4%3DEJsRhgrWDTaLV96qdnma2qg0fdsKMXl4NfEdZera6EozH1JSEJ'
+bearer_token = ''
 
 class TwitterStreamListener(StreamingClient):
     
